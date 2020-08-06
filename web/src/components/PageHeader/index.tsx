@@ -27,7 +27,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({
 
       <div className="header-content">
         <strong>{title}</strong>
-        {description && <h5>{description}</h5>}
+        {description && <p>{description}</p>}
         {children}
       </div>
 
